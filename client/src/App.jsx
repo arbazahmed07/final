@@ -1,13 +1,12 @@
 
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import RootLayout from "./components/RootLayout/Root";  // Import the RootLayout component
+import RootLayout from "./components/RootLayout/Root";
 import Hero from "./components/section/Hero";
-import Features from "./components/section/Features";
 import './App.css';
-
 import Profiles from "./components/Profile/Profiles"; 
-import AddProfile from "./components/Profile/AddProfile";
+import AddProfile from "./components/Profile/AddProfile.jsx";
+
 import ProfilePage from "./components/Profile/ProfilePage";
 import SearchForm from "./components/forms/SearchForm";
 const App = () => {
